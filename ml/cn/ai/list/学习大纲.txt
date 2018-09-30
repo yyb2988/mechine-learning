@@ -6,3 +6,7 @@ https://www.cnblogs.com/lliuye/p/9451903.html
 批量梯度下降(BGD),随机梯度下降(SGD),小批量梯度下降(MBGD)
 
 
+sequence to sequence 模型
+cnn
+text cnn
+rnn lstm 双向lstm
