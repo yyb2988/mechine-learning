@@ -2,8 +2,8 @@
 准确率 Accuracy,召回率 Recall,F1值
 线性回归 LR,均方误差 MSE
 
+批量梯度下降(BGD),随机梯度下降(SGD),小批量梯度下降(MBGD)：
 https://www.cnblogs.com/lliuye/p/9451903.html
-批量梯度下降(BGD),随机梯度下降(SGD),小批量梯度下降(MBGD)
 
 梯度下降为什么陡:
 https://www.zhihu.com/question/36301367/answer/198887937
@@ -11,13 +11,23 @@ https://www.zhihu.com/question/36301367/answer/198887937
 最大熵:
 https://www.cnblogs.com/wxquare/p/5858008.html
 
+三种估计的区别:最大似然  最大后验 贝叶斯估计：
+https://www.cnblogs.com/shixisheng/p/7136890.html
+
+牛顿法：
+https://yq.aliyun.com/articles/655109
+https://blog.csdn.net/lilong117194/article/details/78111779
+
+统计学习方法精华笔记：
+https://www.cnblogs.com/limitlessun/p/8611103.html
+
 sequence to sequence 模型
 cnn
 text cnn
 rnn lstm 双向lstm
 
-  逻辑回归，线性回归，svm ， 决策树 ， 隐马 ， CRF  , 最大熵(拉格朗日乘子/对偶相关理论) ,海塞矩阵(半正定)
-  贝叶斯 ， LDA , 神经网络 ， 深度学习 ， numpy / skelearn / kerus / tensorflow , 梯度下降 ,最小二乘法/牛顿法/拟牛顿法/GIS/IIS
+  逻辑回归，线性回归，svm ， 决策树 ， 隐马 ， CRF  , 最大熵(拉格朗日乘子/对偶相关理论) ,海塞矩阵(半正定,矩阵相关理论)
+  贝叶斯 ， LDA , 神经网络 ， 深度学习 ， numpy / skelearn / kerus / tensorflow , 梯度下降 ,最小二乘法/牛顿法/拟牛顿法/共轭梯度法/GIS/IIS
   皮尔逊相关系数 , 协方差矩阵 , 各类距离度量
   矩阵分解 , cnn , rnn , lstm , EM算法 , GMM混合高斯模型 , K-Means , 层次聚类
   推荐系统系列 , xgboost
