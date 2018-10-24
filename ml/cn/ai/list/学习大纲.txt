@@ -21,21 +21,28 @@ https://blog.csdn.net/lilong117194/article/details/78111779
 统计学习方法精华笔记：
 https://www.cnblogs.com/limitlessun/p/8611103.html
 
+knn/kd树：
+https://blog.csdn.net/wzgang123/article/details/20542209
+
+混合高斯GMM和EM最好文章:
+https://zhuanlan.zhihu.com/p/44673577
+
+
 sequence to sequence 模型
 cnn
 text cnn
 rnn lstm 双向lstm
 
   逻辑回归，线性回归，svm ， 决策树 ， 隐马 ， CRF  , 最大熵(拉格朗日乘子/对偶相关理论) ,海塞矩阵(半正定,矩阵相关理论)
-  贝叶斯 ， LDA , 神经网络 ， 深度学习 ， numpy / skelearn / kerus / tensorflow , 梯度下降 ,最小二乘法/牛顿法/拟牛顿法/共轭梯度法/GIS/IIS
-  皮尔逊相关系数 , 协方差矩阵 , 各类距离度量
+  贝叶斯网络 ， LDA , 神经网络 ， 深度学习 ， numpy / skelearn / keras / tensorflow , 梯度下降 ,最小二乘法/牛顿法/拟牛顿法/共轭梯度法/GIS/IIS
+  协方差矩阵
+  各类距离度量: 明氏距离(曼哈顿距离,欧式距离,切比雪夫距离),皮尔逊相关系数
+  knn/kd树
+  朴素贝叶斯/文本分类(伯努利-多项式)
   矩阵分解 , cnn , rnn , lstm , EM算法 , GMM混合高斯模型 , K-Means , 层次聚类
   推荐系统系列 , xgboost
   以下的各类关系和公式推导：互信息,联合熵,条件熵,边缘熵,熵(经验熵，香农熵)
   泊松分布,伽马分布,LDA-EM算法,马氏链/吉布斯采样
-
-
-
-
+  特征选择
 
 
