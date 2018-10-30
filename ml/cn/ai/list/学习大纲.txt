@@ -37,6 +37,8 @@ sequence to sequence 模型
 cnn
 text cnn
 rnn lstm 双向lstm
+https://www.cnblogs.com/wushaogui/p/9176617.html
+
 
   逻辑回归，线性回归，svm ， 决策树 ， 隐马(HMM) ， 条件随机场(CRF)  , 最大熵(拉格朗日乘子/对偶相关理论) ,海塞矩阵(半正定,矩阵相关理论)
   贝叶斯网络 ， LDA/PLSA , 神经网络 ， 深度学习 ， numpy / skelearn / keras / tensorflow , 梯度下降 ,最小二乘法/牛顿法/拟牛顿法/共轭梯度法/GIS/IIS
