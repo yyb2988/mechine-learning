@@ -33,6 +33,15 @@ https://www.cnblogs.com/mikewolf2002/p/3429711.html
 plsa/em算法
 https://www.cnblogs.com/ywl925/p/3552815.html
 
+决策树剪枝：悲观pep,代价复杂度ccp
+http://blog.sina.com.cn/s/blog_4e4dec6c0101fdz6.html
+
+bagging,boosting区别:
+https://www.cnblogs.com/earendil/p/8872001.html
+
+随机森林,特征重要度+sklearn例子：
+https://blog.csdn.net/zjuPeco/article/details/77371645?locationNum=7&fps=1
+
 sequence to sequence 模型
 cnn
 text cnn
@@ -54,6 +63,8 @@ https://www.cnblogs.com/wushaogui/p/9176617.html
   泊松分布,伽马分布,LDA-EM算法,马氏链/吉布斯采样
   特征选择:卡方, KL离散度
   PCA / SVD / SVD++ / 矩阵分解 / MF / FM
-
+  集成学习bagging:  代表算法随机森林 RF。样本有放回,特征无放回,无剪枝,各个模型均匀投票 ;调参
+  集成学习boosting: 代表算法梯度提升数(GBDT),Adaboost
+  集成学习stacking:
 
 
