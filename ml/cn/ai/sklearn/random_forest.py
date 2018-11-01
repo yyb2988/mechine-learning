@@ -9,7 +9,6 @@ from sklearn.ensemble import RandomForestClassifier
 if __name__ == '__main__':
     url = 'http://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data'
     df = pd.read_csv(url, header=None)
-    print(df)
     df.columns = ['Class label', 'Alcohol', 'Malic acid', 'Ash',
                   'Alcalinity of ash', 'Magnesium', 'Total phenols',
                   'Flavanoids', 'Nonflavanoid phenols', 'Proanthocyanins',
@@ -20,8 +19,6 @@ if __name__ == '__main__':
     print(df.info())
     y = (df.iloc[:, 0:1]).values
     x = (df.iloc[:, 1:]).values
-    print(y)
-    print(x)
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=0)
 
     forest = RandomForestClassifier(n_estimators=10, random_state=0, n_jobs=-1, verbose=5, max_features="log2")
