@@ -21,7 +21,7 @@ if __name__ == '__main__':
     x = (df.iloc[:, 1:]).values
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=0)
 
-    forest = RandomForestClassifier(n_estimators=10, random_state=0, n_jobs=-1, verbose=5, max_features="log2")
+    forest = RandomForestClassifier(n_estimators=5, random_state=0, n_jobs=-1, verbose=5, max_features="log2")
 
     forest.fit(x_train, y_train.reshape(-1))
     y_test_one_dim = y_test.reshape(-1)
