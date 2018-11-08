@@ -61,10 +61,12 @@ https://www.cnblogs.com/wushaogui/p/9176617.html
   推荐系统系列 , xgboost
   以下的各类关系和公式推导：互信息,联合熵,条件熵,边缘熵,熵(经验熵，香农熵)
   泊松分布,伽马分布,LDA-EM算法,马氏链/吉布斯采样
-  特征选择:卡方, KL离散度
+  特征选择:卡方CHI, 互信息(信息增益), Random Forest
   PCA / SVD / SVD++ / 矩阵分解 / MF / FM
   集成学习bagging:  代表算法随机森林 RF。样本有放回,特征无放回,无剪枝,各个模型均匀投票 ;调参
   集成学习boosting: 代表算法梯度提升数(GBDT),Adaboost
   集成学习stacking:
 
 
+  矩阵专题：
+  正交化 / 单位矩阵 / 转置
