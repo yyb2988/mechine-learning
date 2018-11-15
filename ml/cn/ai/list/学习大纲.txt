@@ -30,6 +30,10 @@ https://zhuanlan.zhihu.com/p/44673577
 PCA数学原理:
 https://www.cnblogs.com/mikewolf2002/p/3429711.html
 
+SVD-奇异值分解/特征值分解
+https://blog.csdn.net/lipengcn/article/details/51992766
+https://blog.csdn.net/lyf52010/article/details/79942966
+
 plsa/em算法
 https://www.cnblogs.com/ywl925/p/3552815.html
 
@@ -41,6 +45,10 @@ https://www.cnblogs.com/earendil/p/8872001.html
 
 随机森林,特征重要度+sklearn例子：
 https://blog.csdn.net/zjuPeco/article/details/77371645?locationNum=7&fps=1
+
+adboost/gbdt/xgboost
+https://blog.csdn.net/shine19930820/article/details/65633436
+https://www.cnblogs.com/zhouxiaohui888/p/6008368.html
 
 sequence to sequence 模型
 cnn
@@ -58,13 +66,13 @@ https://www.cnblogs.com/wushaogui/p/9176617.html
   knn/kd树
   朴素贝叶斯/文本分类(伯努利-多项式)
    , cnn , rnn , lstm , EM算法 , GMM混合高斯模型 , K-Means , 层次聚类, KNN(KD树)
-  推荐系统系列 , xgboost
+  推荐系统系列
   以下的各类关系和公式推导：互信息,联合熵,条件熵,边缘熵,熵(经验熵，香农熵)
   泊松分布,伽马分布,LDA-EM算法,马氏链/吉布斯采样
   特征选择:卡方CHI, 互信息(信息增益), Random Forest
-  PCA / SVD / SVD++ / 矩阵分解 / MF / FM
+  矩阵系列：PCA / SVD / LSI / SVD++ / 矩阵分解 / MF / FM
   集成学习bagging:  代表算法随机森林 RF。样本有放回,特征无放回,无剪枝,各个模型均匀投票 ;调参
-  集成学习boosting: 代表算法梯度提升数(GBDT),Adaboost
+  集成学习boosting: 代表算法梯度提升数(GBDT), Adaboost, Xgboost
   集成学习stacking:
 
 
