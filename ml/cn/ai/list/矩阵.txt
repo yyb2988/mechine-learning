@@ -32,3 +32,5 @@ A逆 x 原矩阵 x A = 对角矩阵
 
 矩阵满秩:
 
+特征值分解求解过程
+https://blog.csdn.net/qq_14959801/article/details/69803254
