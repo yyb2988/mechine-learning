@@ -50,6 +50,7 @@ adboost/gbdt/xgboost
 https://blog.csdn.net/shine19930820/article/details/65633436
 https://www.cnblogs.com/zhouxiaohui888/p/6008368.html
 
+
 sequence to sequence 模型
 cnn
 text cnn
