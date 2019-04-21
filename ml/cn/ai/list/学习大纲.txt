@@ -33,6 +33,12 @@ https://blog.csdn.net/wzgang123/article/details/20542209
 
 混合高斯GMM和EM最好文章:
 https://zhuanlan.zhihu.com/p/44673577
+EM算法(隐马学习Baum Welch)
+
+HMM(隐马尔科夫模型):
+预测问题(暴力：T*N^T ；前向算法-后向算法T*N^2) 
+学习问题(baum welch) ,EM算法Q函数  对每个I求和： p(I|X,0) log (p(I,X|0))
+解码问题(：T*N^T暴力; 动态规划-维特比算法T*N^2)
 
 PCA数学原理:
 https://www.cnblogs.com/mikewolf2002/p/3429711.html
