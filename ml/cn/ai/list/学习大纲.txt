@@ -47,7 +47,7 @@ https://www.cnblogs.com/mikewolf2002/p/3429711.html
 SVD-奇异值分解/特征值分解
 https://blog.csdn.net/lipengcn/article/details/51992766
 https://blog.csdn.net/lyf52010/article/details/79942966
-LSA:  10000文档*2000词  (2000*2000) 2000*2000  （=10000文档*2000词）
+(最早的应用,信息检索)LSA:  10000文档*2000词  (2000*2000) 2000*2000  （=10000文档*2000词）
      降维后: 10000文档*100隐语义  (100*100) 100*2000  （=10000文档*2000词）
 
 
