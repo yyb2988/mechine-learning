@@ -1,2 +1,5 @@
 seq2seq和attention机制
 https://cloud.tencent.com/developer/news/372017
+
+attention-based lstm (at-lstm)
+基于注意力的lstm模型
