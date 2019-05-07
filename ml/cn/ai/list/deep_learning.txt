@@ -9,3 +9,6 @@ https://blog.csdn.net/fan_fan_feng/article/details/81666736 (描述的更清楚�
 
 attention-based lstm (at-lstm)
 基于注意力的lstm模型
+
+
+Batch Normalization
