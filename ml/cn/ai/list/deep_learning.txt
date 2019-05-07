@@ -12,3 +12,5 @@ attention-based lstm (at-lstm)
 
 
 Batch Normalization
+https://www.cnblogs.com/skyfsm/p/8453498.html
+
