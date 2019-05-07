@@ -4,7 +4,7 @@ rnn/lstm/gru
 seq2seq和attention机制
 https://cloud.tencent.com/developer/news/372017
 https://blog.csdn.net/Mbx8X9u/article/details/79908973
-http://fancyerii.github.io/2019/03/09/transformer-illustrated/#self-attention%E7%AE%80%E4%BB%8B
+http://fancyerii.github.io/2019/03/09/transformer-illustrated/#self-attention%E7%AE%80%E4%BB%8B(Multi-Head Attention;位置编码;残差连接等)
 https://blog.csdn.net/fan_fan_feng/article/details/81666736 (描述的更清楚一些)
 
 attention-based lstm (at-lstm)
