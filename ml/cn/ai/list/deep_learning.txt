@@ -5,7 +5,7 @@ seq2seq和attention机制
 https://cloud.tencent.com/developer/news/372017
 https://blog.csdn.net/Mbx8X9u/article/details/79908973
 http://fancyerii.github.io/2019/03/09/transformer-illustrated/#self-attention%E7%AE%80%E4%BB%8B
-
+https://blog.csdn.net/fan_fan_feng/article/details/81666736 (描述的更清楚一些)
 
 attention-based lstm (at-lstm)
 基于注意力的lstm模型
