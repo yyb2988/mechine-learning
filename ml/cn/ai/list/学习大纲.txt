@@ -21,6 +21,11 @@ https://www.cnblogs.com/wxquare/p/5858008.html
 
 三种估计的区别:最大似然  最大后验 贝叶斯估计：
 https://www.cnblogs.com/shixisheng/p/7136890.html
+最大似然是频率学派,认为参数天生固定;例如plsa
+其他是贝叶斯学派，认为参数也有分布；最大后验：朴素贝叶斯公式；贝叶斯估计例如lda
+狄利克雷分布是多项式分布的共轭先验
+beta分布是二项分布的共轭先验
+先验概率叫做似然概率的共轭先验 、 参数的后验概率与先验概率具有相同的形式
 
 牛顿法：
 https://yq.aliyun.com/articles/655109
