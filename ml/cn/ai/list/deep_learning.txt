@@ -20,3 +20,7 @@ https://www.cnblogs.com/skyfsm/p/8453498.html
 http://fancyerii.github.io/books/lm/
 
 人脸检测 mtcnn模型
+NMS(非极大值抑制)
+
+FCN全卷积网络
+
