@@ -29,7 +29,7 @@ https://blog.csdn.net/b285795298/article/details/81977271
 其中a（i）>= 0
 只有满足了KKT条件,才能有等价的对偶问题： min(w,b) max(a) L(W,B,A) 对偶于 max(a) min(w,b) L(W,B,A)
 对于一般优化问题，满足KKT条件是min[max(f)]=max[min(f)]的必要条件。但SVM中约束条件是线性的，目标函数是二次的，对于这样的凸优化问题，KKT条件是充分的。
-KKT条件：KKT条件就是函数的最优值必须满足下面条件：
+KKT条件：KKT条件就是函数的最优值必须满足下面条件：(KKT条件将在SMO算法中起到作用)
 min f(x);g(x) = 0;h(x) <=0 
 l(x) = f(x) + a*g(x) + b*h(x)
 条件1： l(x)对x导数为0
