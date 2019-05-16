@@ -12,6 +12,7 @@ attention-based lstm (at-lstm)
 
 Transformer模型
 http://fancyerii.github.io/2019/03/09/transformer-illustrated/
+论文：https://arxiv.org/pdf/1706.03762.pdf  （attention is all your need）
 
 Batch Normalization
 https://www.cnblogs.com/skyfsm/p/8453498.html
