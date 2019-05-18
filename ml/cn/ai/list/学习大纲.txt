@@ -131,8 +131,8 @@ https://blog.csdn.net/lyf52010/article/details/79942966
 (x-x平均)*(y-y平均) /  (x-x平均）向量的模 *  (y-y平均）向量的模
 
 
-plsa/em算法
-https://www.cnblogs.com/ywl925/p/3552815.html
+plsa/em算法/GMM混合高斯模型
+https://www.cnblogs.com/zjgtan/p/3887132.html
 
 决策树剪枝：悲观pep,代价复杂度ccp
 http://blog.sina.com.cn/s/blog_4e4dec6c0101fdz6.html
