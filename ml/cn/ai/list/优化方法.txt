@@ -15,19 +15,31 @@ g:本次迭代中损失函数L对0的梯度
 0 = 0 -  g * η   /   a+(r开方) [a是为了防止分母为0]
 j维度更新次数越多,学习率越衰减;之前更新幅度越大,学习率越衰减
 https://blog.csdn.net/program_developer/article/details/80756008
-缺点：学习率衰减过快,用RMSprop方法解决
+缺点：学习率衰减过快,用RMSprop,AdaDelta方法解决
 
 4.RMSprop
 对adagrad的改进在于学习率的衰减不再对历史上所有梯度平方累计，而是做加权平均
-累计加权梯度平方 r(t) = gamma * r(t-1)  +  (1-gamma)*g*t
+累计加权梯度平方 r(t) = γ * r(t-1)  +  (1-γ)*g*g   γ：gamma
 梯度按元素平方做指数加权移动平均,梯度不再一直降低或者不变
-
-5.adam
-对RMSprop的进一步改进,是实际学习中最常用的算法 
-结合了RMSprop和momentum的优点
+建议设定 γ 为 0.9, 学习率 η 为 0.001
 
 
 
+5.AdaDelta
+
+
+
+6.adam
+https://www.cnblogs.com/yifdu25/p/8183587.html
+指数加权平均,相当于是最近 1/(1-β)天的平均值,因此才有误差修正: https://blog.csdn.net/aliceyangxi1987/article/details/81427631
+方向和学习同时校正,结合了RMSprop和momentum的优点,相当于 RMSprop + Momentum
+是实际学习中最常用的算法,也是效果最好的算法
+建议 β1 ＝ 0.9，β2 ＝ 0.999，ϵ ＝ 10e−8
+β1是Momentum参数：
+m(t) = β1 * m(t-1) + (1-β1) * g
+β2是RMSprop 的 γ参数：
+r(t) = β2 * r(t-1)  +  (1-β2)*g*g   
+0 = 0 -  m(t) * η   /   ϵ+(r开方) [ϵ是为了防止分母为0]
 
 
 牛顿法:求解无约束最优化
