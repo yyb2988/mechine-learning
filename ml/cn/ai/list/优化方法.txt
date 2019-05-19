@@ -15,6 +15,20 @@ g:本次迭代中损失函数L对0的梯度
 0 = 0 -  g * η   /   a+(r开方) [a是为了防止分母为0]
 j维度更新次数越多,学习率越衰减;之前更新幅度越大,学习率越衰减
 https://blog.csdn.net/program_developer/article/details/80756008
+缺点：学习率衰减过快,用RMSprop方法解决
+
+4.RMSprop
+root  mean square prop
+
+
+
+5.adam
+对RMSprop的进一步改进,是实际学习中最常用的算法 
+
+
+
+
+
 
 牛顿法:求解无约束最优化
 牛顿法的核心思想是对函数进行泰勒展开。泰勒公式：f(x) = f(a) + (x-a)*f`(a)/1! + (x-a)2 * f``(a) /2! +  (x-a)3 * f```(a) / 3!
