@@ -80,12 +80,6 @@ a=C , 跳出了间隔边界的点,也可能极少数在边界上
 
 
 
-批量梯度下降(BGD),随机梯度下降(SGD),小批量梯度下降(MBGD)：
-https://www.cnblogs.com/lliuye/p/9451903.html
-
-梯度下降为什么陡:
-https://www.zhihu.com/question/36301367/answer/198887937
-
 最大熵:
 https://www.cnblogs.com/wxquare/p/5858008.html
 
