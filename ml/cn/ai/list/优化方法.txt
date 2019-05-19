@@ -1,4 +1,5 @@
 牛顿法
+牛顿法的用处： 求解方程的根，用一阶泰勒展开；用于凸优化，用二阶泰勒展开
 https://yq.aliyun.com/articles/655109
 https://blog.csdn.net/lilong117194/article/details/78111779
 
