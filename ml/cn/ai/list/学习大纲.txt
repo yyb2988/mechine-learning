@@ -81,7 +81,13 @@ a=C , 跳出了间隔边界的点,也可能极少数在边界上
 
 
 最大熵:
-https://www.cnblogs.com/wxquare/p/5858008.html
+https://www.cnblogs.com/wxquare/p/5858008.html 
+
+
+CRF
+轻松理解版本：https://www.imooc.com/article/27795（与HMM类比）
+HMM可以认为是CRF的特例
+
 
 三种估计的区别:最大似然  最大后验 贝叶斯估计：
 https://www.cnblogs.com/shixisheng/p/7136890.html
