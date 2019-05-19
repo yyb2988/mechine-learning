@@ -1,0 +1,10 @@
+牛顿法
+https://yq.aliyun.com/articles/655109
+https://blog.csdn.net/lilong117194/article/details/78111779
+
+拟牛顿法
+
+
+
+梯度下降 ,最小二乘法/牛顿法/拟牛顿法/共轭梯度法/GIS/IIS
+  协方差矩阵
