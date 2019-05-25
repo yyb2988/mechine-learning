@@ -18,7 +18,7 @@ w = w + v
 
 3.Adagrad：(adaptive gradient)自适应梯度算法,是一种改进的随机梯度下降算法
 g:本次迭代中损失函数L对0的梯度
-累计梯度平方r(t) = t(t-1) + g*g
+累计梯度平方r(t) = r(t-1) + g*g
 0 = 0 -  g * η   /   a+(r开方) [a是为了防止分母为0]
 j维度更新次数越多,学习率越衰减;之前更新幅度越大,学习率越衰减
 https://blog.csdn.net/program_developer/article/details/80756008
