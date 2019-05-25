@@ -1,5 +1,6 @@
 rnn/lstm/gru/bi-lstm
 
+bi-lstm实现序列标注
 
 word2vector:
 cbow:context->word
