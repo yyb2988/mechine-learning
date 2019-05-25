@@ -2,6 +2,8 @@ rnn/lstm/gru/bi-lstm
 
 bi-lstm实现序列标注
 
+bi-lstm + crf
+
 word2vector:
 cbow:context->word
 skip-gram:word->context
