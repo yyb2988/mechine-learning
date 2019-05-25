@@ -21,6 +21,7 @@ attention-based lstm (at-lstm)
 
 FastText
 
+glove
 
 ELMo
 
