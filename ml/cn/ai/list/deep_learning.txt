@@ -36,6 +36,8 @@ https://www.jianshu.com/p/ef41302edeef
 Bert模型
 https://zhuanlan.zhihu.com/p/47488095
 https://cloud.tencent.com/developer/article/1389555 （生动直白版）
+bert的位置嵌入是学习出来的，词嵌入可以学习也可以固定
+分割嵌入（Segment Embedding）：根据模型学习出来的
 
 Batch Normalization
 https://www.cnblogs.com/skyfsm/p/8453498.html
