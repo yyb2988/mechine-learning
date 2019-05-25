@@ -1,4 +1,4 @@
-rnn/lstm/gru
+rnn/lstm/gru/bi-lstm
 
 
 word2vector:
