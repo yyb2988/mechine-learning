@@ -35,6 +35,7 @@ https://www.jianshu.com/p/ef41302edeef
 
 Bert模型
 https://zhuanlan.zhihu.com/p/47488095
+https://cloud.tencent.com/developer/article/1389555 （生动直白版）
 
 Batch Normalization
 https://www.cnblogs.com/skyfsm/p/8453498.html
