@@ -24,8 +24,11 @@ FastText
 glove
 
 ELMo
+lstm双层双向
 
 GBT
+Transform单向
+
 
 Transformer模型
 http://fancyerii.github.io/2019/03/09/transformer-illustrated/
