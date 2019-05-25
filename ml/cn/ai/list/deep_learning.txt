@@ -17,6 +17,7 @@ https://blog.csdn.net/fan_fan_feng/article/details/81666736 (描述的更清楚�
 attention-based lstm (at-lstm)
 基于注意力的lstm模型
 
+全连接网络
 
 FastText
 
@@ -30,6 +31,9 @@ http://fancyerii.github.io/2019/03/09/transformer-illustrated/
 https://baijiahao.baidu.com/s?id=1622064575970777188&wfr=spider&for=pc(最形象的直白细节展示)
 https://www.jianshu.com/p/ef41302edeef
 论文：https://arxiv.org/pdf/1706.03762.pdf  （attention is all your need）
+
+Bert模型
+https://zhuanlan.zhihu.com/p/47488095
 
 Batch Normalization
 https://www.cnblogs.com/skyfsm/p/8453498.html
