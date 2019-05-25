@@ -1,6 +1,13 @@
 rnn/lstm/gru
 
 
+word2vector:
+cbow:context->word
+skip-gram:word->context
+NEC
+Negative sampling（负采样）
+Hierarchical softmax（层次softmax）
+
 seq2seq和attention机制
 https://cloud.tencent.com/developer/news/372017
 https://blog.csdn.net/Mbx8X9u/article/details/79908973
