@@ -18,6 +18,9 @@ attention-based lstm (at-lstm)
 基于注意力的lstm模型
 
 
+FastText
+
+
 ELMo
 
 GBT
