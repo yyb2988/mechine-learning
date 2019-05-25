@@ -6,7 +6,8 @@ CRF VS HMM，MEMM
 CRF++工具特征模板定义:
 https://blog.csdn.net/asdfsadfasdfsa/article/details/81073522
 HMM:无监督效果差(EM算法：Baum-Welch),有监督效果好(根据大数定理直接统计)
-
+CRF和HMM的差别就在于数据上下文的利用
+CRF：序列版的最大熵模型,是判别模型
 
 
 
