@@ -12,6 +12,7 @@ attention-based lstm (at-lstm)
 
 Transformer模型
 http://fancyerii.github.io/2019/03/09/transformer-illustrated/
+https://baijiahao.baidu.com/s?id=1622064575970777188&wfr=spider&for=pc(最形象的直白细节展示)
 https://www.jianshu.com/p/ef41302edeef
 论文：https://arxiv.org/pdf/1706.03762.pdf  （attention is all your need）
 
