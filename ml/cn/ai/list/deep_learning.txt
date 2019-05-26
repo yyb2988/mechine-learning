@@ -23,7 +23,14 @@ attention-based lstm (at-lstm)
 
 全连接网络
 
-FastText
+
+FastText:
+fastText是一个快速文本分类算法，与基于神经网络的分类算法相比有两大优点：
+1、fastText在保持高精度的情况下加快了训练速度和测试速度
+2、fastText不需要预训练好的词向量，fastText会自己训练词向量
+3、fastText两个重要的优化：Hierarchical Softmax、N-gram
+
+
 
 glove
 
