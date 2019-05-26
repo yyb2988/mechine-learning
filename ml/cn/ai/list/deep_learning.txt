@@ -29,7 +29,15 @@ attention-based lstm (at-lstm)
 
 BatchNormalization:
 批标准化(每个神经元需要训练均值,方差,伽马,贝塔四个参数)
+（1）解决covariate-shift问题，神经网络本质是学习数据分布，如果寻来你数据与测试数据分布不同，网络的泛化能力将降低，batchnorm就是通过对每一层的计算做scale和shift的方法，通过规范化手段，把每层神经网络任意神经元这个输入值的分布强行拉回到正太分布，减小其影响，让模型更加健壮。
+（2）使用BN就可以使得不同层不同scale的权重变化整体步调更一致，可以使用更高的学习率，加快训练速度。
+(3) 防止过拟合。此时可以移除或使用较低的dropout，降低L2权重衰减系数等防止过拟合的手段。
 https://www.cnblogs.com/skyfsm/p/8453498.html
+移动平均法求全局的均值,方差用于预测阶段。
+指数加权平均、偏差修正：
+https://www.cnblogs.com/guoyaohua/p/8544835.html
+
+
 
 
 影子变量
