@@ -10,6 +10,7 @@ skip-gram:word->context
 NEC
 Negative sampling（负采样）
 Hierarchical softmax（层次softmax）
+huffman树：每次选取n个结点中权值最小的两个结点，同级节点左小右大
 
 seq2seq和attention机制
 https://cloud.tencent.com/developer/news/372017
