@@ -30,7 +30,8 @@ fastText是一个快速文本分类算法，与基于神经网络的分类算法
 2、fastText不需要预训练好的词向量，fastText会自己训练词向量
 3、fastText两个重要的优化：Hierarchical Softmax、N-gram
 
-
+GlobalAveragePooling1D、GlobalMaxPooling1D： <none,12,512> => <none,512>
+keras.layers.MaxPooling1D: <none,12,512> => <none,2,512>
 
 glove
 
