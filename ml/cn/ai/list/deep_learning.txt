@@ -27,6 +27,13 @@ attention-based lstm (at-lstm)
 全连接网络
 
 
+BatchNormalization:
+批标准化(每个神经元需要训练均值,方差,伽马,贝塔四个参数)
+https://www.cnblogs.com/skyfsm/p/8453498.html
+
+
+影子变量
+
 FastText:
 fastText是一个快速文本分类算法，与基于神经网络的分类算法相比有两大优点：
 1、fastText在保持高精度的情况下加快了训练速度和测试速度
