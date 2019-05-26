@@ -1,7 +1,7 @@
 rnn/lstm/gru/bi-lstm
 
 bi-lstm实现序列标注
-捕获双向的语义依赖
+捕获双向的语义依赖，隐向量拼接
 
 bi-lstm + crf
 
