@@ -139,7 +139,7 @@ plsa/em算法/GMM混合高斯模型
 https://www.cnblogs.com/zjgtan/p/3887132.html
 
 =======================================================================================================================
-决策树(ID3,C4.5,CART-分类回归树)
+【决策树(ID3,C4.5,CART-分类回归树)】
 ID3，C4.5 只做分类 ; CART 可以做分类和回归
 ID3不能处理连续值,缺失值。IG信息增益作为特征选择依据,条件熵的减少量
 C4.5可以处理连续值,但是需要扫描数据寻找分割点;IGR信息增益率作为特征选择依据,克服对于多值属性的倾向。
@@ -152,16 +152,20 @@ CART剪枝采用代价复杂度
 Reduced-Error Pruning(REP,错误率降低剪枝)
 Pesimistic-Error Pruning(PEP,悲观错误剪枝）
 Cost-Complexity Pruning（CCP，代价复杂度剪枝)
-
-bagging,boosting区别:
+【bagging,boosting区别】:
 https://www.cnblogs.com/earendil/p/8872001.html
-
-随机森林,特征重要度+sklearn例子：
+---------
+【bagging思想】：随机森林,特征重要度+sklearn例子：
+从原始的数据集中采取有放回的抽样（bagging），构造子数据集，子数据集的数据量是和原始数据集相同的。
+特征：决策树与决策树之间是有放回的,决策树内部是无放回的
 https://blog.csdn.net/zjuPeco/article/details/77371645?locationNum=7&fps=1
-
-adboost/gbdt/xgboost
-https://blog.csdn.net/shine19930820/article/details/65633436
-https://www.cnblogs.com/zhouxiaohui888/p/6008368.html
+---------
+【boost思想】:adboost/gbdt/xgboost
+adboost:https://www.cnblogs.com/pinard/p/6133937.html
+gbdt:每棵CART树用全部特征,每个树内部样本不重复,且用全部数据;https://www.cnblogs.com/pinard/p/6140514.html
+     每次求损失函数的负梯度,作为每个x的残差;
+xgboost:每棵CART树用全部特征,每个树内部样本不重复,且用全部数据
+https://www.jianshu.com/p/7467e616f227
 =========================================================================================================================
 
 sequence to sequence 模型
