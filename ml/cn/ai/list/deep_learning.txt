@@ -74,7 +74,9 @@ ELMo还有一个优势，就是它建立语言模型的时候，可以运用非�
 
 GBT
 Transform单向
-
+他们利用了Transformer网络代替了LSTM作为语言模型来更好的捕获长距离语言结构。然后在进行具体任务有监督微调时使用了语言模型作为附属任务训练目标
+Transformer解码器作为语言模型。Transformer模型主要是利用自注意力（self-attention）机制的模型
+然后再具体NLP任务有监督微调时，与ELMo当成特征的做法不同，OpenAI GPT不需要再重新对任务构建新的模型结构，而是直接在transformer这个语言模型上的最后一层接上softmax作为任务输出层，然后再对这整个模型进行微调。他们额外发现，如果使用语言模型作为辅助任务，能够提升有监督模型的泛化能力，并且能够加速收敛。
 
 Transformer模型
 http://fancyerii.github.io/2019/03/09/transformer-illustrated/
@@ -87,6 +89,10 @@ https://zhuanlan.zhihu.com/p/47488095
 https://cloud.tencent.com/developer/article/1389555 （生动直白版）
 bert的位置嵌入是学习出来的，词嵌入可以学习也可以固定
 分割嵌入（Segment Embedding）：根据模型学习出来的
+
+
+对比一下三种语言模型结构，BERT使用的是Transformer编码器，由于self-attention机制，所以模型上下层直接全部互相连接的。而OpenAI GPT使用的是Transformer解码器，它是一个需要从左到右的受限制的Transformer，而ELMo使用的是双向LSTM，虽然是双向的，但是也只是在两个单向的LSTM的最高层进行简单的拼接。所以作者们任务只有BERT是真正在模型所有层中是双向的。
+
 
 Batch Normalization
 https://www.cnblogs.com/skyfsm/p/8453498.html
