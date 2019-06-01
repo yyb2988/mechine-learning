@@ -12,3 +12,11 @@ CRF：序列版的最大熵模型,是判别模型
 https://www.cnblogs.com/YongSun/p/4767734.html
 CRF必须定义特征函数
 
+
+
+
+序列标注问题：
+分词 , 词性均属于这类问题
+bi-lstm + crf 模型
+https://blog.csdn.net/bobobe/article/details/80489303
+https://blog.csdn.net/zhang2010hao/article/details/85317411 (超级详细版)
