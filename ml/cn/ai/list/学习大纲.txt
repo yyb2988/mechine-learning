@@ -137,16 +137,21 @@ https://blog.csdn.net/lyf52010/article/details/79942966
 
 plsa/em算法/GMM混合高斯模型
 https://www.cnblogs.com/zjgtan/p/3887132.html
+
 =======================================================================================================================
 决策树(ID3,C4.5,CART-分类回归树)
 ID3，C4.5 只做分类 ; CART 可以做分类和回归
-ID3不能处理连续值,缺失值。IG信息增益作为特征选择依据
+ID3不能处理连续值,缺失值。IG信息增益作为特征选择依据,条件熵的减少量
 C4.5可以处理连续值,但是需要扫描数据寻找分割点;IGR信息增益率作为特征选择依据,克服对于多值属性的倾向。
-C4.5采用的改进EBP剪枝算法
+C4.5采用悲观剪枝法，它使用训练集生成决策树又用它来进行剪枝，不需要独立的剪枝集。
 C4.5处理缺失值:https://www.cnblogs.com/starfire86/p/5791264.html
-
-决策树剪枝：悲观pep,代价复杂度ccp
-http://blog.sina.com.cn/s/blog_4e4dec6c0101fdz6.html
+预剪枝方法：定义层高,定义信息增益减少量,定义样本数
+后剪枝方法：
+Reduced-Error Pruning(REP,错误率降低剪枝）
+Pesimistic-Error Pruning(PEP,悲观错误剪枝）
+Cost-Complexity Pruning（CCP，代价复杂度剪枝)
+EBP(Error-Based Pruning)（基于错误的剪枝）
+=======================================================================================================================
 
 bagging,boosting区别:
 https://www.cnblogs.com/earendil/p/8872001.html
@@ -158,7 +163,7 @@ adboost/gbdt/xgboost
 https://blog.csdn.net/shine19930820/article/details/65633436
 https://www.cnblogs.com/zhouxiaohui888/p/6008368.html
 
-========================================================================================================================
+=========================================================================================================================
 sequence to sequence 模型
 cnn
 text cnn
