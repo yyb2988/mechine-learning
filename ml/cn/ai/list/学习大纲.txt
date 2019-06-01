@@ -135,9 +135,15 @@ https://blog.csdn.net/lyf52010/article/details/79942966
 皮尔逊相关系数(相当于x,y中心化后的余弦相似度)
 (x-x平均)*(y-y平均) /  (x-x平均）向量的模 *  (y-y平均）向量的模
 
-
 plsa/em算法/GMM混合高斯模型
 https://www.cnblogs.com/zjgtan/p/3887132.html
+=======================================================================================================================
+决策树(ID3,C4.5,CART-分类回归树)
+ID3，C4.5 只做分类 ; CART 可以做分类和回归
+ID3不能处理连续值,缺失值。IG信息增益作为特征选择依据
+C4.5可以处理连续值,但是需要扫描数据寻找分割点;IGR信息增益率作为特征选择依据,克服对于多值属性的倾向。
+C4.5采用的改进EBP剪枝算法
+C4.5处理缺失值:https://www.cnblogs.com/starfire86/p/5791264.html
 
 决策树剪枝：悲观pep,代价复杂度ccp
 http://blog.sina.com.cn/s/blog_4e4dec6c0101fdz6.html
@@ -152,12 +158,21 @@ adboost/gbdt/xgboost
 https://blog.csdn.net/shine19930820/article/details/65633436
 https://www.cnblogs.com/zhouxiaohui888/p/6008368.html
 
-
+========================================================================================================================
 sequence to sequence 模型
 cnn
 text cnn
 rnn lstm 双向lstm
 https://www.cnblogs.com/wushaogui/p/9176617.html
+
+
+
+
+
+
+
+
+
 
 
   逻辑回归
