@@ -1,3 +1,7 @@
+深度学习相关文本分类：
+https://www.cnblogs.com/jiangxinyang/p/10208227.html
+
+
 rnn/lstm/gru/bi-lstm
 
 gru:zt和rt分别表示更新门和重置门,没有细胞状态Ct
