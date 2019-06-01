@@ -146,11 +146,10 @@ C4.5可以处理连续值,但是需要扫描数据寻找分割点;IGR信息增�
 C4.5采用PEP悲观剪枝法，它使用训练集生成决策树又用它来进行剪枝，不需要独立的剪枝集。
 C4.5处理缺失值:https://www.cnblogs.com/starfire86/p/5791264.html
 预剪枝方法：定义层高,定义信息增益减少量,定义样本数
-后剪枝方法：https://www.cnblogs.com/starfire86/p/5749334.html
-Reduced-Error Pruning(REP,错误率降低剪枝)REP是最简单的后剪枝方法之一，不过由于使用独立的测试集，原始决策树相比，修改后的决策树可能偏向于过度修剪。这是因为一些不会再测试集中出现的很稀少的训练集实例所对应的分枝在剪枝过如果训练集较小，通常不考虑采用REP算法。
-Pesimistic-Error Pruning(PEP,悲观错误剪枝）把一颗子树（具有多个叶子节点）的分类用一个叶子节点来替代的话，在训练集上的误判率肯定是上升的，但是在新数据上不一定。于是我们需要把子树的误判计算加上一个经验性的惩罚因子。对于一颗叶子节点，它覆盖了N个样本，其中有E个错误，那么该叶子节点的错误率为（E+0.5）/N。这个0.5就是惩罚因子，那么一颗子树，它有L个叶子节点，那么该子树的误判率估计为： 求和【Ii + 0.5*叶子数】 / N
+后剪枝方法：https://blog.csdn.net/weixin_43216017/article/details/87534496
+Reduced-Error Pruning(REP,错误率降低剪枝)
+Pesimistic-Error Pruning(PEP,悲观错误剪枝）
 Cost-Complexity Pruning（CCP，代价复杂度剪枝)
-EBP(Error-Based Pruning)（基于错误的剪枝）
 
 bagging,boosting区别:
 https://www.cnblogs.com/earendil/p/8872001.html
